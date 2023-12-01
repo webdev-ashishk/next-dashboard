@@ -19,8 +19,9 @@ export async function GET(req) {
       password: "anjuK098",
     },
     {
-      name: "ra",
+      name: "raj",
       password: "anjuK098",
+      j,
     },
   ]);
 }
