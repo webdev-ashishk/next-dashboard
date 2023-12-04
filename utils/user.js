@@ -29,4 +29,24 @@ export const user = [
     user: "bhuwal",
     email: "rambhuwal@gmail.com",
   },
+  {
+    id: 7,
+    user: "karan",
+    email: "karan@gmail.com",
+  },
+  {
+    id: 8,
+    user: "nitin",
+    email: "nitin@gmail.com",
+  },
+  {
+    id: 9,
+    user: "karan2",
+    email: "karan2@gmail.com",
+  },
+  {
+    id: 10,
+    user: "karan3",
+    email: "karan3@gmail.com",
+  },
 ];
