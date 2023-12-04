@@ -1,5 +1,5 @@
 async function getData() {
-  const res = await fetch(process.env.API_URL);
+  const res = await fetch("http://localhost:3000/api/users");
   if (!res.ok) {
     throw new Error("Failed to fetch data");
   }
@@ -15,7 +15,7 @@ export default async function Home() {
       <h1> @ home page </h1>
       <h1>List of all users!</h1>
       {data.map((items) => {
-        return <div key={items.password}>{items.name}</div>;
+        return <div key={items.id}>{items.email}</div>;
       })}
     </div>
   );
