@@ -15,7 +15,11 @@ export default async function Home() {
       <h1> @ home page </h1>
       <h1>List of all users!</h1>
       {data.map((items) => {
-        return <div key={items.id}>{items.email}</div>;
+        return (
+          <div key={items.id}>
+            {items.email} || {items.id}
+          </div>
+        );
       })}
     </div>
   );
