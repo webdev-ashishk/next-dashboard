@@ -12,7 +12,7 @@ export default async function Home() {
   console.log(data);
   return (
     <div style={{ margin: "10px" }}>
-      <h1> @ home page </h1>
+      <h1> @ home page @</h1>
       <h1>List of all users!</h1>
       {data.map((items) => {
         return (
