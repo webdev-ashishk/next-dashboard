@@ -19,7 +19,7 @@ export async function GET(req) {
       password: "anjuK098",
     },
     {
-      name: "raj",
+      name: "rajK",
       password: "anjuK098",
       j,
     },

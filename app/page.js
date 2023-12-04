@@ -1,5 +1,5 @@
 async function getData() {
-  const res = await fetch("https://test-next-api-piei.vercel.app/api/users");
+  const res = await fetch(process.env.API_URL);
   if (!res.ok) {
     throw new Error("Failed to fetch data");
   }
